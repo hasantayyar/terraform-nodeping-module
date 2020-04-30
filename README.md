@@ -11,20 +11,20 @@ Terraform nodeping module to create WHOIS, SSL and HTTP checks
 
 ```
 module "http_check" {
-  target     = "https://www.frontiercargroup.com"
+  target     = "https://hasantayyar.net"
   contact_id = "201903210109AEJEB-G-ZE48Z"
   source = "git::git@github.com:hasantayyar/terraform-nodeping-module.git//http_check?ref=1.0.0"
 }
 
 module "ssl_check" {
-  target      = "https://www.frontiercargroup.com"
+  target      = "https://hasantayyar.net"
   contact_id  = "201903210109AEJEB-G-ZE48Z"
   warningdays = 10
   source = "git::git@github.com:hasantayyar/terraform-nodeping-module.git//ssl_check?ref=1.0.0"
 }
 
 module "whois_check" {
-  target      = "www.frontiercargroup.com"
+  target      = "hasantayyar.net"
   contact_id  = "201903210109AEJEB-G-ZE48Z"
   warningdays = 10
   source = "git::git@github.com:hasantayyar/terraform-nodeping-module.git//whois_check?ref=1.0.0"
