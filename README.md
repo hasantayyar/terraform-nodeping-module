@@ -1,6 +1,11 @@
 # terraform-nodeping-module
 
-Terraform nodeping module to create WHOIS, SSL and HTTP checks
+A primitive Terraform Nodeping module to create WHOIS, SSL and HTTP checks. Update or delete operations are not supported.
+
+### TODO
+
+- [ ] A provider which handles changes.
+
 
 ### Parameters
 
