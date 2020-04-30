@@ -9,10 +9,10 @@ module "http_check" {
 module "ssl_check" {
   api_base_url  = ""
   api_token     = ""
-  target      = "https://hasantayyar.net"
-  contact_id  = "201804161909EEEY-G-ABCD"
-  warningdays = 10
-  source      = "../ssl_check"
+  target        = "https://hasantayyar.net"
+  contact_id    = "201804161909EEEY-G-ABCD"
+  warningdays   = 10
+  source        = "../ssl_check"
 }
 
 module "whois_check" {
